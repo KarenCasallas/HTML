@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
     <title>Document</title>
 </head>
-<body>
+<body class="fondo">
+
     <header>
-        <h1>CONTACTO ASESORIAS PERSONALIZADAS TU PROXIMO DESTINO</h1>
-    </header>
-    <main>
         <div>
-            <h2>
+            <h1 class="tittle" id="principal2">TU PROXIMO DESTINO.COM</h1>
+    </header>
+
+    <main>
+
+        <div id="fondoSuperior">
+            
+            <h1 class="tittle">CONTACTO ASESORIAS PERSONALIZADAS TU PROXIMO DESTINO</h1>
+            <h2 class="tittle" id="ciudadContacto">
                 PARIS
             </h2>
             <p>
@@ -22,27 +30,35 @@
         <form>
 
             <div>
-                <input type="text" name="nombre" placeholder="Nombre" />
 
-            </div>
+                <div class="casilla">
+                    <input type="text" name="nombre" placeholder="Nombre" />
 
-            <div>
-                <input type="number" numero de personas="numero de personas" placeholder="numero de personas" />
+                </div>
+
+                <div class="casilla">
+                    <input type="number" numero de personas="numero de personas" placeholder="numero de personas" />
+                
+                </div>
+
+                <div class="casilla">
+                    <input type="number" dias de viaje="dias de vaje" placeholder="dias de viaje" />
+                
+                </div>
+
+                <div class="casilla">
+                    <input type="text" transporte ="transporte si o no" placeholder="transporte si o no" />
+                
+                </div>
+
+                <div class="casilla">
+                    <input type="text" transporte ="descripcion" placeholder="describe brevemente como te imaginas tu viaje" />
+                
+                </div>
+
+                <button>ENVIAR</button>  
                 
             </div>
-
-            <div>
-                <input type="number" dias de viaje="dias de vaje" placeholder="dias de viaje" />
-                
-            </div>
-
-            <div>
-                <input type="text" transporte ="transporte si o no" placeholder="transporte si o no" />
-                
-            </div>
-
-
-            <button>ENVIAR</button>            
             
         </form>
        
